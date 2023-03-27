@@ -1,0 +1,250 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+	height: 30vh;
+	width: 100%;
+	background:url('background-image.png');
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+.container{
+    max-width: 60vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 80px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+	color: #fff;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.navbar li .btn
+{
+	background-color: black;
+	color: #fff;
+    border-radius: 50px;
+ 
+}
+.h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.topleft{
+    width: 70%;
+}
+
+.topright{ 
+    width: 50%;
+}
+
+.section1{
+   margin-top: 15%;
+   color: #383332;
+   font-family: 'Ubuntu', sans-serif;
+  
+}
+
+.section1 h2{
+    color: orange;
+    font-size: 35px;
+	font-family: 'Ubuntu', sans-serif;
+    font-weight: 60px;
+   line-height: 1rem;
+}
+.section1 h1{
+    color:black;
+    font-size: 30px;
+	font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+  
+}
+.section p{
+    font-size: 15px;
+}
+.logo{
+    font-size: 1.3rem;
+}
+
+.buttons{
+    display: flex;
+	margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.deal{
+    font-size: 10px;
+    font-weight: bolder;
+    margin: 12px 12px;
+	color: orange;
+	font-family: 'Ubuntu', sans-serif;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.btns
+{
+	cursor: pointer;
+    font-size: 10px;
+    border-radius: 20px;
+	padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: orange;
+    background-color: rgb(243, 223, 223);
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bolder;
+    margin-top: 20px;
+    
+    
+}
+.text{
+	font-size:0.8rem ;
+	color: #807c7c;
+    font-weight: bold;
+}
+
+.foot img{
+    
+margin-left: 65%;
+
+	
+	
+}
+
+
+.justify-between {
+    justify-content: space-between;
+}
+/*About*/
+
+.about{
+    width: 100%;
+  
+    padding: 70px 0;
+    
+   margin-top: -10%;
+    background-size: cover;
+    background-position: center;
+   
+}
+
+.about .about_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about .about_main .image img{
+    width: 500px;
+    position: relative;
+    top: 40px;
+    background-image:url(Rounded\ Rectangle\ 2.png);
+}
+
+
+
+.about .about_main .about_text h1{
+    font-size: 35px;
+    position: relative;
+    bottom: 50px;
+    color: black;
+    font-weight: bolder;
+}
+.about .about_main .about_text h2{
+    font-size: 20px;
+    position: relative;
+    bottom: 50px;
+    color: orange;
+    font-weight: bolder;
+}
+
+.about .about_main .about_text p{
+    width: 400px;
+    text-align: justify;
+    line-height: 22px;
+    font-weight: medium;
+    margin-left: -40px;
+}
+
+
+.skills {
+    width: 100%;
+    padding: 70px 0;
+    
+}
+
+.skills .service_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   position: relative;
+}
+
+.skills .service_main .image img{
+   
+  margin-top: 10px;
+  position: relative;
+}
+
+.skills  .service_main .service_text h1{
+    font-size: 35px;
+    color: black;
+    font-weight: bolder;
+    position: relative;
+}
+.skills .service_main .service_text h2{
+    font-size: 20px;
+  color: orange;
+    font-weight: bolder;
+    position: relative;
+}
+
+.skills .service_main .service_text p{
+    width: 400px;
+    text-align: justify;
+    font-weight: medium;
+    margin: 1rem 0 3rem;
+    position: relative;
+   
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns:30% 30%;
+    grid-template-columns:repeat(3, 1fr)
+
+}
+.icon-title{
+   
+    align-items: center;
+
+}
+
+
+.grid-box .highlight {
+
+    font-weight: bold;
+    text-align: center;
+
+}
+.grid-box {
+    padding: 30px;
+
+}
+.skills .grid-box {
+    box-shadow: 0px 0px 30px #0000002f;
+    border-radius: 20px;
+
+}
